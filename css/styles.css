@@ -1,0 +1,455 @@
+/*  цвет основного текста color: #757575;
+    цвет вторичного текста #212121;*/
+/*  акцент #2196F3;*/
+/*  цвет фона основной #E5E5E5;
+    цвет фона вторичный #F5F4FA*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+/*fone*/
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+/*ul*/
+
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*logo*/
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-color);
+}
+
+/*meny*/
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--title-text-color);
+  color: #757575;
+  font-weight: 500;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: #212121;
+}
+
+/*unique content*/
+
+/*.fone {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}*/
+
+.unique-page-content {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: -15px;
+  top: 85px;
+  background: #2f303a;
+}
+
+.heading {
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+
+.button {
+  padding: 10px 32px;
+  top: 430;
+  background: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  /*text button*/
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.section .button:hover {
+  background: #188ce8;
+}
+/*lovation*/
+
+.location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.location-features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.class {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.class-one {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+.class-two {
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+
+.class-tree {
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+/*command*/
+
+.command {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.command-profi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*footer*/
+.logo-color-footer {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.adress-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  /*color: #ffffff;*/
+}
+
+.address-footer {
+  width: 231px;
+  height: 21px;
+  margin-left: 215px;
+  top: 20px;
+  bottom: 9px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.tel-footer {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/*portfolio*/
+
+.button-vse {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  background: #f5f4fa;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #212121;
+}
+
+.button-categories .button-vse:hover {
+  background: #188ce8;
+  color: #ffffff;
+}
+
+.button-web {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  font-family: Roboto;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-categories .button-web:hover {
+  background: #188ce8;
+  color: #ffffff;
+}
+
+.button-game {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-categories .button-game:hover {
+  background: #188ce8;
+  color: #ffffff;
+}
+
+.button-disane {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-categories .button-disane:hover {
+  background: #188ce8;
+  color: #ffffff;
+}
+
+.button-marceting {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+
+  background: #f5f4fa;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-categories .button-marceting:hover {
+  background: #188ce8;
+  color: #ffffff;
+}
+
+.portfolio-meny {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tema {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: white;
+  text-decoration: none;
+  margin-left: 215px;
+  margin-top: 60px;
+}
+.logo-color-footer {
+  color: var(--accent-color);
+  margin-left: 40px;
+}
+
+.mail-footer,
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 215px;
+  bottom: 9px;
+}
